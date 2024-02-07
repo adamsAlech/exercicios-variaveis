@@ -1,6 +1,6 @@
 ![](https://i.imgur.com/xG74tOh.png)
 
-# Exercício 13
+/*# Exercício 13
 
 ## Área total de um cilindro.
 
@@ -16,14 +16,13 @@ Sendo:
 
 **At:** área total do cilindro \
 **R:** raio da base \
-**H:** altura do cilindro
+**H:** altura do cilindro*/
 
 Faça um programa que calcula a área total de um cilindro a partir do raio da sua base e da sua altura.
 
 #### Exemplo:
 
-\
-Para um cilindro com:
+\Para um cilindro com:
 
 **R =** 3 \
 **H =** 1

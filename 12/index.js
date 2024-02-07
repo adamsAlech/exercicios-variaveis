@@ -11,3 +11,7 @@
 const montantePago = 90000;
 const capitalEmprestimo = 60000;
 const tempoEmprestimo = 24;
+
+const calculo = ((montantePago / capitalEmprestimo) ** (1 / tempoEmprestimo)) - 1;
+const taxaDeJuros = calculo * 100;
+console.log(`O seu financiamento de 60000 reais teve uma taxa de juros de ${taxaDeJuros.toFixed(3)}%, pois após 24 meses você teve que pagar 90000 reais.`);
